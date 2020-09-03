@@ -1,0 +1,13 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+.build
+build
+web_modules
+node_modules
+
+.vscode/*
+!.vscode/settings.json
+
+yarn-error.log
+
+.DS_Store

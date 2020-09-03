@@ -1,0 +1,29 @@
+{
+  "name": "spotalot",
+  "version": "0.1.0",
+  "description": "a playground project",
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simbo/spotalot.git"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"NO TESTS SPECIFIED\" && exit 1",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@snowpack/plugin-run-script": "^2.1.1",
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/snowpack-env": "^2.3.0",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.10.0",
+    "typescript": "^3.9.7"
+  }
+}
